@@ -51,6 +51,12 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Bitter', serif;
 }
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
+}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -492,6 +498,20 @@ h6,
   text-align: center;
 }
 
+#msg-box8-u .mbr-section-title,
+#msg-box8-u p {
+  color: #fff;
+}
+#msg-box8-u .lead {
+  color: #ffffff;
+}
+#msg-box8-u .mbr-section-title {
+  color: #5f06ed;
+}
+#msg-box8-u .lead BLOCKQUOTE {
+  text-align: center;
+  color: #f7da64;
+}
 #menu-7 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -561,6 +581,10 @@ h6,
   background-color: #ffffff;
 }
 
+#msg-box8-v .mbr-section-title,
+#msg-box8-v p {
+  color: #fff;
+}
 #menu-a .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -617,7 +641,7 @@ h6,
 }
 #menu-a .link[aria-expanded="true"],
 #menu-a .dropdown-item[aria-expanded="true"] {
-  color: #000000!important;
+  color: #6200ff!important;
 }
 #menu-a.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
@@ -632,6 +656,17 @@ h6,
 #slider2-n .mbr-section-title,
 #slider2-n .mbr-section-lead {
   color: #fff;
+}
+#content8-x .mbr-section-title,
+#content8-x p {
+  text-align: right;
+  color: #fff;
+}
+#content8-x P {
+  text-align: left;
+}
+#content8-x .mbr-section-title {
+  text-align: left;
 }
 
 #menu-c .hide-buttons .nav-btn {
@@ -702,7 +737,14 @@ h6,
 #menu-c .close-icon::after {
   background-color: #ffffff;
 }
+#form1-r .form-control-label {
+  color: #232323;
+}
 
+#msg-box8-y .mbr-section-title,
+#msg-box8-y p {
+  color: #fff;
+}
 #menu-e .hide-buttons .nav-btn {
   display: none !important;
 }
