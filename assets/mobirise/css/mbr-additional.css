@@ -911,73 +911,73 @@ h6,
 }
 
 
-#menu-19 .hide-buttons .nav-btn {
+#menu-1u .hide-buttons .nav-btn {
   display: none !important;
 }
-#menu-19 .navbar-caption {
+#menu-1u .navbar-caption {
   color: #ffffff;
   font-family: 'Bitter', serif;
 }
-#menu-19 .navbar-toggler {
+#menu-1u .navbar-toggler {
   color: #ffffff;
 }
-#menu-19 .link,
-#menu-19 .dropdown-item {
+#menu-1u .link,
+#menu-1u .dropdown-item {
   color: #ffffff;
   font-family: 'Bitter', serif;
 }
-#menu-19 .link {
+#menu-1u .link {
   font-size: 0.95rem;
 }
-#menu-19 .dropdown-item,
-#menu-19 .nav-dropdown-sm .link {
+#menu-1u .dropdown-item,
+#menu-1u .nav-dropdown-sm .link {
   font-size: 1.029rem;
 }
-#menu-19 .link:hover,
-#menu-19 .dropdown-item:hover,
-#menu-19 .link:focus,
-#menu-19 .dropdown-item:focus {
+#menu-1u .link:hover,
+#menu-1u .dropdown-item:hover,
+#menu-1u .link:focus,
+#menu-1u .dropdown-item:focus {
   color: #000000;
 }
-#menu-19 .link[aria-expanded="true"],
-#menu-19 .dropdown-menu {
-  background: #b3b3b3;
+#menu-1u .link[aria-expanded="true"],
+#menu-1u .dropdown-menu {
+  background: #000000;
 }
-#menu-19 .nav-dropdown-sm .link:focus,
-#menu-19 .nav-dropdown-sm .link:hover,
-#menu-19 .nav-dropdown-sm .dropdown-item:focus,
-#menu-19 .nav-dropdown-sm .dropdown-item:hover {
-  background: #c4c4c4!important;
+#menu-1u .nav-dropdown-sm .link:focus,
+#menu-1u .nav-dropdown-sm .link:hover,
+#menu-1u .nav-dropdown-sm .dropdown-item:focus,
+#menu-1u .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
 }
-#menu-19 .navbar,
-#menu-19 .nav-dropdown-sm,
-#menu-19 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-19 .nav-dropdown-sm .dropdown-menu {
-  background: #cccccc;
+#menu-1u .navbar,
+#menu-1u .nav-dropdown-sm,
+#menu-1u .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-1u .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
 }
-#menu-19 .bg-color.transparent .link {
+#menu-1u .bg-color.transparent .link {
   color: #ffffff;
   transition: none;
 }
-#menu-19 .bg-color.transparent.opened .link {
+#menu-1u .bg-color.transparent.opened .link {
   transition: color 0.2s ease-in-out;
 }
-#menu-19 .bg-color.transparent.opened .link:hover,
-#menu-19 .bg-color.transparent.opened .link:focus {
+#menu-1u .bg-color.transparent.opened .link:hover,
+#menu-1u .bg-color.transparent.opened .link:focus {
   color: #000000;
 }
-#menu-19 .link[aria-expanded="true"],
-#menu-19 .dropdown-item[aria-expanded="true"] {
-  color: #000000!important;
+#menu-1u .link[aria-expanded="true"],
+#menu-1u .dropdown-item[aria-expanded="true"] {
+  color: #000000 !important;
 }
-#menu-19.mbr-navbar--stuck .mbr-navbar__section {
+#menu-1u.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
 }
-#menu-19 .mbr-navbar__hamburger {
+#menu-1u .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#menu-19 .close-icon::before,
-#menu-19 .close-icon::after {
+#menu-1u .close-icon::before,
+#menu-1u .close-icon::after {
   background-color: #ffffff;
 }
 
@@ -1058,6 +1058,18 @@ h6,
 #content5-1o .mbr-section-title {
   text-align: center;
 }
+#header3-22 .mbr-section-title,
+#header3-22 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-23 .mbr-section-title,
+#header3-23 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-24 .mbr-section-title,
+#header3-24 .mbr-section-subtitle {
+  text-align: center;
+}
 
 
 #menu-1u .hide-buttons .nav-btn {
@@ -1090,19 +1102,19 @@ h6,
 }
 #menu-1u .link[aria-expanded="true"],
 #menu-1u .dropdown-menu {
-  background: #b3b3b3;
+  background: #000000;
 }
 #menu-1u .nav-dropdown-sm .link:focus,
 #menu-1u .nav-dropdown-sm .link:hover,
 #menu-1u .nav-dropdown-sm .dropdown-item:focus,
 #menu-1u .nav-dropdown-sm .dropdown-item:hover {
-  background: #c4c4c4!important;
+  background: #000000!important;
 }
 #menu-1u .navbar,
 #menu-1u .nav-dropdown-sm,
 #menu-1u .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-1u .nav-dropdown-sm .dropdown-menu {
-  background: #cccccc;
+  background: #000000;
 }
 #menu-1u .bg-color.transparent .link {
   color: #ffffff;
@@ -1117,7 +1129,7 @@ h6,
 }
 #menu-1u .link[aria-expanded="true"],
 #menu-1u .dropdown-item[aria-expanded="true"] {
-  color: #000000!important;
+  color: #000000 !important;
 }
 #menu-1u.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
