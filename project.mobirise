@@ -12,9 +12,9 @@
         "infoColor": "#c0a375",
         "warningColor": "#3d8eb9",
         "dangerColor": "#f28281",
-        "titleFont": "Bitter",
-        "subtitleFont": "Bitter",
-        "textFont": "Bitter",
+        "titleFont": "Open Sans",
+        "subtitleFont": "Open Sans",
+        "textFont": "Open Sans",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.8.6",
-    "uniqCompNum": 103,
+    "uniqCompNum": 117,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -43,151 +43,92 @@
       },
       "components": [
         {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
-            },
-            ".mbr-section-lead": {
-              "color": "#000000"
-            },
-            ".mbr-section-title SPAN": {
-              "color": "#c1c1c1",
-              "text-align": "center",
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-2",
+          "_name": "header1",
+          "_anchor": "header1-34",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/zetter3-2000x1333.png",
-            "bgColor": "#efefef",
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dscn6198-2000x1333.png",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/0fYL_qiDYf0?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": "0",
-            "overlayColor": "#b8312f",
-            "contentAlign": "right",
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
             "showTitle": true,
             "showText": false,
             "showButtons": false
           },
-          "title": "",
+          "title": "<i>VICTOR VERHELST</i><i><br><br></i>",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "60px",
+              "color": "#ff0000",
+              "text-align": "right"
+            },
+            ".mbr-section-title SPAN": {
+              "text-align": "left"
+            },
+            ".mbr-section-title I": {
+              "text-align": "right",
+              "color": "#ff0000",
+              "font-size": "20px"
+            }
+          }
         },
         {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
-            },
-            ".navbar-toggler": {
-              "color": "#b8312f"
-            },
-            ".link, .dropdown-item": {
-              "color": "#b8312f",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
-              "font-family": "'Bitter', serif"
-            },
-            ".link": {
-              "font-size": "1.1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.191rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#b8312f",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000000!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#b8312f"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "menu",
-          "_anchor": "menu-19",
-          "_params": {
-            "bgColor": "#000000",
-            "fontSize": "1.1",
-            "fontName": {
-              "name": "Bitter",
-              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
-              "css": "'Bitter', serif"
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#ff0000",
+              "text-align": "center",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "46px"
             },
-            "fontColor": "#b8312f",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": false,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-05-18-om-20-142x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+            "SPAN": {
+              "text-align": "right"
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Victor Verhelst</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"vinyl.html\" aria-expanded=\"false\">Vinyl</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Photos.html\" aria-expanded=\"false\">Fotografie<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"posters.html\" aria-expanded=\"false\">Posters</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Drawings.html\" aria-expanded=\"false\">Illustraties</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Boek.html\" aria-expanded=\"false\">Grafische beeldenreeks</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "_anchor": "msg-box1-2k",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/beeld15.gif",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": false,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
+          "text": "",
+          "title": "HERBARIUM GRAFICA<br><br>"
         },
         {
           "_tags": [
@@ -297,24 +238,21 @@
           ],
           "_name": "msg-box1",
           "_styles": {
-            "H3": {
-              "color": "#ff0000",
-              "text-align": "center",
+            "B": {
+              "font-size": "46px",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "46px"
-            },
-            "SPAN": {
-              "text-align": "right"
+              "text-align": "center",
+              "color": "#f2ff00"
             }
           },
-          "_anchor": "msg-box1-2k",
+          "_anchor": "msg-box1-2p",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": true,
             "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/beeld15.gif",
+            "bgImage": "@PROJECT_PATH@/assets/images/krop-sla-24-2000x2705.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -326,12 +264,12 @@
             "overlayColor": "#222",
             "inverse": false,
             "showButtons": false,
-            "showText": false,
+            "showText": true,
             "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
-          "text": "",
-          "title": "HERBARIUM GRAFICA<br>VERZAMEL MINIMUM 100 GRAFISCH BRUIKBARE ARTEFACTEN / VOORWERPEN / OBJECTEN DIE IN EEN HERBARIUM GRAFICA KUNNEN OPGENOMEN WORDEN.<div>BEPAAL VOOR JEZELF WAT EEN HERBARIUM GRAFICA ALLEMAAL KAN BEVATTEN.</div>"
+          "text": "<b>THE 'NEW' NEW YORK TIMES</b><br><b>ABOUT TRUMP</b><br><b>ASSOCIATION WITH SESAME STREET</b>",
+          "title": ""
         },
         {
           "_tags": [
@@ -520,23 +458,22 @@
           ],
           "_name": "msg-box1",
           "_styles": {
-            "B": {
-              "font-size": "46px",
+            "H3": {
+              "color": "#00d9ff",
+              "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "text-align": "center",
-              "color": "#f2ff00"
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
-          "_anchor": "msg-box1-2p",
+          "_anchor": "msg-box1-2r",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgImageRadio": true,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/krop-sla-24-2000x2705.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -546,12 +483,12 @@
             "overlayColor": "#222",
             "inverse": false,
             "showButtons": false,
-            "showText": true,
+            "showText": false,
             "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
-          "text": "<b>THE 'NEW' NEW YORK TIMES</b><br><b>ABOUT TRUMP</b><br><b>ASSOCIATION WITH SESAME STREET</b>",
-          "title": ""
+          "text": "",
+          "title": "ALBUM COVER FOR FRANCISCO LOPEZ"
         },
         {
           "_tags": [
@@ -589,14 +526,15 @@
           "_name": "msg-box1",
           "_styles": {
             "H3": {
-              "color": "#00d9ff",
-              "text-align": "left"
+              "color": "#df00ff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
-          "_anchor": "msg-box1-2r",
+          "_anchor": "msg-box1-2u",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -615,8 +553,8 @@
             "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
-          "text": "",
-          "title": "ALBUM COVER FOR FRANCISCO LOPEZ"
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "BILD HAMBURG"
         },
         {
           "_tags": [
@@ -628,7 +566,7 @@
             "parallax": false,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/bild33-2000x1425-2000x1425.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/lieb-sein-2000x1778.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -638,7 +576,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
+            "contentAlign": "left",
             "showTitle": false,
             "showText": false,
             "showButtons": false
@@ -754,17 +692,10 @@
             "Theme"
           ],
           "_name": "msg-box1",
-          "_styles": {
-            "H3": {
-              "color": "#df00ff",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          },
-          "_anchor": "msg-box1-2u",
+          "_anchor": "msg-box1-2x",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -784,7 +715,254 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "BILD HAMBURG"
+          "title": "BEELDEN LINEARITEIT <br>EN PICTURALITEIT",
+          "_styles": {
+            "H3": {
+              "color": "#e25041",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscn5265-1-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn5265-1-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscn5358-1-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn5358-1-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscn5543-1-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn5543-1-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscn5284-1-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn5284-1-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-2w",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-2z",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": false,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "POSTERS ISTANBUL EKSPRES",
+          "_styles": {
+            "H3": {
+              "color": "#2b0680"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/poster-2000x2902-800x1160.jpg",
+                "image": "@PROJECT_PATH@/assets/images/poster-2000x2902.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/poster-2000x2904-800x1161.jpg",
+                "image": "@PROJECT_PATH@/assets/images/poster-2000x2904.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x2904-800x1161.jpg",
+                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x2904.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "4",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#000000",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": false
+          },
+          "_anchor": "gallery1-2y",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-36",
+          "_params": {
+            "labelsColor": "#ffffff",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT",
+          "subtitle": "",
+          "form": {
+            "action": "Verhelst.Victor@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Victor"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Verhelst.Victor@gmail.com"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "16px"
+            },
+            ".btn": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            "SMALL": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-38",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Victor Verhelst (c) 2017."
         }
       ]
     },
@@ -2274,7 +2452,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x2904-800x1161.jpg",
-                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x2904.jpg",
+                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x29040.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
