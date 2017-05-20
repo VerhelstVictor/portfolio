@@ -96,7 +96,7 @@
           "_styles": {
             "H3": {
               "color": "#ffffff",
-              "text-align": "center",
+              "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-size": "46px"
@@ -2488,7 +2488,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x2904-800x1161.jpg",
-                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x29042.jpg",
+                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x29043.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
