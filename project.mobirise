@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.8.6",
-    "uniqCompNum": 117,
+    "uniqCompNum": 118,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -95,7 +95,7 @@
           "_name": "msg-box1",
           "_styles": {
             "H3": {
-              "color": "#ff0000",
+              "color": "#ffffff",
               "text-align": "center",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -107,13 +107,13 @@
           },
           "_anchor": "msg-box1-2k",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/beeld15.gif",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
+            "bgColor": "#000000",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -217,6 +217,46 @@
                 "thumb": "@PROJECT_PATH@/assets/images/beeld25-800x533.png",
                 "image": "@PROJECT_PATH@/assets/images/beeld25.gif",
                 "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dopcola3-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/dopcola3-2000x1333.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/alarm2-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/alarm2-2000x1333.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bord1-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/bord1-2000x1333.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/oliepot2-2000x1332-800x532.png",
+                "image": "@PROJECT_PATH@/assets/images/oliepot2-2000x1332.png",
+                "caption": "Type caption here",
                 "active": true
               }
             ],
@@ -237,24 +277,15 @@
             "Theme"
           ],
           "_name": "msg-box1",
-          "_styles": {
-            "B": {
-              "font-size": "46px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "text-align": "center",
-              "color": "#f2ff00"
-            }
-          },
-          "_anchor": "msg-box1-2p",
+          "_anchor": "msg-box1-39",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/krop-sla-24-2000x2705.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -264,12 +295,17 @@
             "overlayColor": "#222",
             "inverse": false,
             "showButtons": false,
-            "showText": true,
+            "showText": false,
             "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
-          "text": "<b>THE 'NEW' NEW YORK TIMES</b><br><b>ABOUT TRUMP</b><br><b>ASSOCIATION WITH SESAME STREET</b>",
-          "title": ""
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "TRUMP X SESAME STREET",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_tags": [
@@ -459,7 +495,7 @@
           "_name": "msg-box1",
           "_styles": {
             "H3": {
-              "color": "#00d9ff",
+              "color": "#ffffff",
               "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
@@ -468,7 +504,7 @@
           "_anchor": "msg-box1-2r",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -526,15 +562,15 @@
           "_name": "msg-box1",
           "_styles": {
             "H3": {
-              "color": "#df00ff",
+              "color": "#ffffff",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
           "_anchor": "msg-box1-2u",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -694,8 +730,8 @@
           "_name": "msg-box1",
           "_anchor": "msg-box1-2x",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -718,7 +754,7 @@
           "title": "BEELDEN LINEARITEIT <br>EN PICTURALITEIT",
           "_styles": {
             "H3": {
-              "color": "#e25041",
+              "color": "#ffffff",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
@@ -793,7 +829,7 @@
           "_name": "msg-box1",
           "_anchor": "msg-box1-2z",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
@@ -817,7 +853,7 @@
           "title": "POSTERS ISTANBUL EKSPRES",
           "_styles": {
             "H3": {
-              "color": "#2b0680"
+              "color": "#ffffff"
             }
           }
         },
@@ -2452,7 +2488,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x2904-800x1161.jpg",
-                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x29040.jpg",
+                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x29042.jpg",
                 "caption": "Type caption here",
                 "active": true
               },

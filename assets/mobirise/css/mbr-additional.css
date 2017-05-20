@@ -11,7 +11,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -434,7 +433,7 @@ h6,
   font-size: 20px;
 }
 #msg-box1-2k H3 {
-  color: #ff0000;
+  color: #ffffff;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 46px;
@@ -442,27 +441,24 @@ h6,
 #msg-box1-2k SPAN {
   text-align: right;
 }
-#msg-box1-2p B {
-  font-size: 46px;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  color: #f2ff00;
+#msg-box1-39 H3 {
+  color: #ffffff;
 }
 #msg-box1-2r H3 {
-  color: #00d9ff;
+  color: #ffffff;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
 }
 #msg-box1-2u H3 {
-  color: #df00ff;
+  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
 #msg-box1-2x H3 {
-  color: #e25041;
+  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
 #msg-box1-2z H3 {
-  color: #2b0680;
+  color: #ffffff;
 }
 #form1-36 .form-control-label {
   color: #ffffff;
