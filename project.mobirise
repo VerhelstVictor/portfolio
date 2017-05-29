@@ -47,6 +47,23 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "60px",
+              "color": "#ff0000",
+              "text-align": "right"
+            },
+            ".mbr-section-title SPAN": {
+              "text-align": "left"
+            },
+            ".mbr-section-title I": {
+              "text-align": "right",
+              "color": "#ff0000",
+              "font-size": "20px"
+            }
+          },
           "_anchor": "header1-34",
           "_params": {
             "parallax": true,
@@ -69,24 +86,7 @@
           },
           "title": "<i>VICTOR VERHELST</i><i><br><br></i>",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "60px",
-              "color": "#ff0000",
-              "text-align": "right"
-            },
-            ".mbr-section-title SPAN": {
-              "text-align": "left"
-            },
-            ".mbr-section-title I": {
-              "text-align": "right",
-              "color": "#ff0000",
-              "font-size": "20px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
@@ -277,6 +277,11 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "msg-box1-39",
           "_params": {
             "paddingTop": "1",
@@ -300,12 +305,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "TRUMP X SESAME STREET",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            }
-          }
+          "title": "TRUMP X SESAME STREET"
         },
         {
           "_tags": [
@@ -728,6 +728,13 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
           "_anchor": "msg-box1-2x",
           "_params": {
             "paddingTop": "1",
@@ -751,14 +758,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "BEELDEN LINEARITEIT <br>EN PICTURALITEIT",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          }
+          "title": "BEELDEN LINEARITEIT <br>EN PICTURALITEIT"
         },
         {
           "_tags": [
@@ -827,6 +827,11 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "msg-box1-2z",
           "_params": {
             "paddingTop": "1",
@@ -850,12 +855,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "POSTERS ISTANBUL EKSPRES",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            }
-          }
+          "title": "POSTERS ISTANBUL EKSPRES"
         },
         {
           "_tags": [
@@ -914,6 +914,25 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "16px"
+            },
+            ".btn": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            "SMALL": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
           "_anchor": "form1-36",
           "_params": {
             "labelsColor": "#ffffff",
@@ -959,26 +978,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "16px"
-            },
-            ".btn": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            },
-            "SMALL": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>"
         },
         {
           "_tags": [
@@ -2488,7 +2488,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x2904-800x1161.jpg",
-                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x29043.jpg",
+                "image": "@PROJECT_PATH@/assets/images/posters-18-oktober-2016-bleed-2000x29041.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
